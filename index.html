@@ -150,7 +150,7 @@
 </style>
 
 <a href="/pages/to-all-our-valued-belle-fever-friends">
-    <div id="custom-banner-strip" style="visibility:hidden;">
+    <div id="custom-banner-strip" style="display: none;">
         <p>Belle Fever’s response to COVID-19 <span>here</span></p>
     </div>
 </a>
@@ -184,7 +184,7 @@
     }
 
     function loadalert() {
-        document.getElementById("custom-banner-strip").style.visibility = "visible";
+        document.getElementById("custom-banner-strip").style.display = "block";
     }
     if (once_per_session == 0) loadalert()
     else alertornot()
